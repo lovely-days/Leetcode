@@ -101,6 +101,17 @@
 **  top solution
         没看懂，先丢这了
 
+25.k个一组翻转链表
+    my solution
+        依托 题92.反转链表II 实现
+        首先循环得出链表长度，此后对每一组需翻转结点调用翻转函数即可求解
+        时间复杂度为 O(N),空间复杂度为 O(k)
+        对于 题92.反转链表II中三种算法，单指针方法效果最好，递归方法最差
+
+    top solution
+        与 my solution 类似，将翻转函数在循环内部实现
+        时间及空间复杂度与 my solution 一致
+
 
 92.反转链表 II
     my solution iteration
